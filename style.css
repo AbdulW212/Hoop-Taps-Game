@@ -1,0 +1,34 @@
+.body{
+    background-image: url(https://wallpapertag.com/wallpaper/full/8/7/a/357215-large-basketball-court-background-2085x1251-for-1080p.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.hoopPic{
+    height: 50px;
+    width: 50px;
+    background-image: url(http://clipart-library.com/images_k/basketball-hoop-transparent-background/basketball-hoop-transparent-background-16.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.hoopPic:hover{
+    transform: scale(1.2);
+    background-color: black;
+}
+
+.score{
+    font-size: 80px;
+}
+
+.title{
+    
+    margin-left: 36%;
+    font-size: 5vh;
+    color: yellow;
+}
